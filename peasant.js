@@ -1,6 +1,6 @@
 var peasant = 0;
 
-function cookieClick(number){
+function peasantClick(number){
     peasant = peasant + number;
     document.getElementById("peasant").innerHTML = peasant;
 };
