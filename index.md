@@ -1,19 +1,19 @@
 ## Welcome to Idle Realm
-Total Gold: No idea1
+Total Gold: <span id="cookies">0</span>
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="interface.css" />
 	</head>
 	<body>
-		<button onclick="cookieClick(1)">Click Me!</button>
+		<button onclick="cookieClick(1)">Dig</button>
 		<br />
-		Cookies: <span id="cookies">0</span>
+		Gold: <span id="cookies">0</span>
 		<br />
-		<button onclick="buyCursor()">Buy Cursor</button>
+		<button onclick="buyCursor()">Buy Worker</button>
 		<br />
-		Cursors: <span id="cursors">0</span>
+		Workerss: <span id="cursors">0</span>
 		<br />
-		Cursor Cost: <span id="cursorCost">10</span>
+		Workers Cost: <span id="cursorCost">10</span>
 		<script type="text/javascript" src="worker.js"></script>
 	</body>
 </html>
