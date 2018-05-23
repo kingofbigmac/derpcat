@@ -7,11 +7,11 @@ Total Gold: <span id="cookies">0</span>
 	<body>
 		<button onclick="cookieClick(1)">Dig</button>
 		<br />
-		Gold: <span id="cookies">0</span>
+		
 		<br />
 		<button onclick="buyCursor()">Buy Worker</button>
 		<br />
-		Workerss: <span id="cursors">0</span>
+		Workers: <span id="cursors">0</span>
 		<br />
 		Workers Cost: <span id="cursorCost">10</span>
 		<script type="text/javascript" src="worker.js"></script>
