@@ -15,7 +15,7 @@ function buyPeasant(){
         document.getElementById('peasants').innerHTML = peasants;  //updates the number of peasants for the user
         document.getElementById('peasant').innerHTML = peasant;  //updates the number of peasant for the user
     };
-    var nextCost = Math.floor(10 * Math.pow(1.1,peasants));       //works out the cost of the next cursor
+    var nextCost = Math.floor(100 * Math.pow(1.1,peasants));       //works out the cost of the next cursor
     document.getElementById('peasantCost').innerHTML = nextCost;  //updates the cursor cost for the user
 };
 
