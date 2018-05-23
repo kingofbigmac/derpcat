@@ -5,7 +5,7 @@ function cookieClick(number){
     document.getElementById("cookies").innerHTML = cookies;
 };
 
-vars = 0;
+var peasants = 0;
 
 function buyPeasant(){
     var peasantCost = Math.floor(100 * Math.pow(1.1,peasants));     //works out the cost of this peasant
