@@ -20,6 +20,7 @@ function myFunction(){
 
 <button type="button" onclick="myFunction()">Hire!</button>
 <p id="worker">0</p>
+
 <script>
 var add = (function () {
     var counter1 = 0;
