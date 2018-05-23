@@ -15,7 +15,7 @@ Total Gold: <span id="cookies">0</span>
 		<br />
 		Workers Cost: <span id="cursorCost">10</span>
 		<script type="text/javascript" src="worker.js"></script>
-	
+	<br />
 		<br />
 		<button onclick="buyPeasant()">Buy Peasant</button>
 		<br />
