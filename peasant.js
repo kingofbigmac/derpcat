@@ -1,8 +1,8 @@
 var peasant = 0;
 
 function peasantClick(number){
-    peasant = peasant + number;
-    document.getElementById("peasant").innerHTML = cookies;
+    cookies = cookies + number;
+    document.getElementById("cookies").innerHTML = cookies;
 };
 
 var peasants = 0;
