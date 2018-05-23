@@ -8,10 +8,10 @@ function cookieClick(number){
 var peasants = 0;
 
 function buyPeasant(){
-    var cursorCost = Math.floor(100 * Math.pow(1.1,peasants));     //works out the cost of this cursor
-    if(peasant >= cursorCost){                                   //checks that the player can afford the cursor
+    var peasantCost = Math.floor(100 * Math.pow(1.1,peasants));     //works out the cost of this cursor
+    if(peasant >= peasantCost){                                   //checks that the player can afford the cursor
         peasants = peasants + 1;                                   //increases number of peasants
-    	peasant = peasant - cursorCost;                          //removes the peasant spent
+    	peasant = peasant - peasantCost;                          //removes the peasant spent
         document.getElementById('peasants').innerHTML = peasants;  //updates the number of peasants for the user
         document.getElementById('peasant').innerHTML = peasant;  //updates the number of peasant for the user
     };
