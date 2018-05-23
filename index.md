@@ -1,4 +1,4 @@
-## Welcome to Idle War
+## Welcome to Idle Realm
 
 <p>Dig For Gold!</p>
 <button type="button" onclick="myFunction()">Count!</button>
