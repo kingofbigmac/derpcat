@@ -1,5 +1,18 @@
 ## Welcome to Idle War
 
-You can use the [editor on GitHub](https://github.com/kingofbigmac/idlewar/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<p>Counting with a local variable.</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<button type="button" onclick="myFunction()">Count!</button>
+
+<p id="demo">0</p>
+
+<script>
+var add = (function () {
+    var counter = 0;
+    return function () {return counter += 1;}
+})();
+
+function myFunction(){
+    document.getElementById("demo").innerHTML = add();
+}
+</script>
