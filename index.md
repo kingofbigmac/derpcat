@@ -1,5 +1,5 @@
 ## Welcome to Idle Realm
-Total Gold: No idea
+Total Gold: No idea1
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="interface.css" />
@@ -14,6 +14,6 @@ Total Gold: No idea
 		Cursors: <span id="cursors">0</span>
 		<br />
 		Cursor Cost: <span id="cursorCost">10</span>
-		<script type="text/javascript" src="main.js"></script>
+		<script type="text/javascript" src="worker.js"></script>
 	</body>
 </html>
