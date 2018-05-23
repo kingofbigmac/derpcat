@@ -22,7 +22,7 @@ function myFunction(){
 <p id="worker">0</p>
 <script>
 var add = (function () {
-    var counter = 0;
+    var counter1 = 0;
     return function () {return counter += 1;}
 })();
 
