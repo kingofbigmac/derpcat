@@ -17,4 +17,3 @@ Total Gold:
 		<script type="text/javascript" src="main.js"></script>
 	</body>
 </html>
-<script type="text/javascript" src="main.js"></script>
