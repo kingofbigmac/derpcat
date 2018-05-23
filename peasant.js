@@ -2,7 +2,7 @@ var peasant = 0;
 
 function peasantClick(number){
     peasant = peasant + number;
-    document.getElementById("peasant").innerHTML = peasant;
+    document.getElementById("peasant").innerHTML = cookies;
 };
 
 var peasants = 0;
