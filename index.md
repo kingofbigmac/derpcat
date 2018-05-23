@@ -1,4 +1,6 @@
 ## Welcome to Idle Realm
+Total Gold:
+
 
 <p>Dig For Gold!</p>
 <button type="button" onclick="myFunction()">Dig!</button>
@@ -6,7 +8,7 @@
 <script>
 var add = (function () {
     var counter = 0;
-    return function () {return counter += 0.1;}
+    return function () {return counter += 1;}
 })();
 
 function myFunction(){
