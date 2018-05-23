@@ -1,4 +1,4 @@
-var peasant = 0;
+var cookies = 0;
 
 function peasantClick(number){
     cookies = cookies + number;
