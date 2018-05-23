@@ -1,5 +1,5 @@
 ## Welcome to Idle Realm
-Total Gold:
+Total Gold: No idea
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="interface.css" />
