@@ -8,7 +8,7 @@ function cookieClick(number){
 var cursors = 0;
 
 function buyCursor(){
-    var cursorCost = Math.floor(100 * Math.pow(1.1,cursors));     //works out the cost of this cursor
+    var cursorCost = Math.floor(10 * Math.pow(1.1,cursors));     //works out the cost of this cursor
     if(cookies >= cursorCost){                                   //checks that the player can afford the cursor
         cursors = cursors + 1;                                   //increases number of cursors
     	cookies = cookies - cursorCost;                          //removes the cookies spent
