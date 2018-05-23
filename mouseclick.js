@@ -1,7 +1,5 @@
 <button type="button" onclick="myFunction()">Count!</button>
-
 <p id="demo">0</p>
-
 <script>
 var add = (function () {
     var counter = 0;
