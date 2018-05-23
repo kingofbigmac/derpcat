@@ -1,33 +1,20 @@
 ## Welcome to Idle Realm
 Total Gold:
-
-
-<p>Dig For Gold!</p>
-<button type="button" onclick="myFunction()">Dig!</button>
-<p id="demo">0</p>
-<script>
-var add = (function () {
-    var counter = 0;
-    return function () {return counter += 1;}
-})();
-
-function myFunction(){
-    document.getElementById("demo").innerHTML = add();
-}
-</script>
-
-<p>Hire a worker</p>
-
-<button type="button" onclick="myFunction()">Hire!</button>
-<p id="worker">0</p>
-
-<script>
-var add = (function () {
-    var counter1 = 0;
-    return function () {return counter += 1;}
-})();
-
-function myFunction(){
-    document.getElementById("worker").innerHTML = add();
-}
-</script>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="interface.css" />
+	</head>
+	<body>
+		<button onclick="cookieClick(1)">Click Me!</button>
+		<br />
+		Cookies: <span id="cookies">0</span>
+		<br />
+		<button onclick="buyCursor()">Buy Cursor</button>
+		<br />
+		Cursors: <span id="cursors">0</span>
+		<br />
+		Cursor Cost: <span id="cursorCost">10</span>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
+<script type="text/javascript" src="main.js"></script>
