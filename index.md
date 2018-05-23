@@ -1,7 +1,7 @@
 ## Welcome to Idle Realm
 
 <p>Dig For Gold!</p>
-<button type="button" onclick="myFunction()">Count!</button>
+<button type="button" onclick="myFunction()">Dig!</button>
 <p id="demo">0</p>
 <script>
 var add = (function () {
