@@ -49,3 +49,17 @@ window.setInterval(function(){
 	cookieClick(peasants);
 	
 }, 1000);
+
+var knights = 0;
+
+function buyKnight(){
+    var knightCost = Math.floor(12000 * Math.pow(1.01,knights));     //works out the cost of this peasant
+    if(cookies >= knightCost){                                   //checks that the player can afford the peasant
+        knights = knights + 10;                                   //increases number of peasants
+    	cookies = cookies - knightCost;                          //removes the cookies spent
+        document.getElementById('peasants').innerHTML = knights;  //updates the number of peasants for the user
+        document.getElementById('cookies').innerHTML = cookies;  //updates the number of cookies for the user
+    };
+    var nextCost = Math.floor(12000 * Math.pow(1.01,knights));       //works out the cost of the next peasant
+    document.getElementById('knightCost').innerHTML = nextCost;  //updates the peasant cost for the user
+};
