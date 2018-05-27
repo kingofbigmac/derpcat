@@ -36,10 +36,7 @@ Total Gold: <span id="cookies">0</span>
 		
 		
 		
-		##<div align="center">
-		##<button onclick="woodClick">Chop</button>
-		##</div>
-	
+
 	
 	
 	
