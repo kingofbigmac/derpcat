@@ -12,11 +12,11 @@ Total Gold: <span id="cookies">0</span>
 
 .flex-container > div {
   background-color: #f1f1f1;
-  width: 100px;
+  width: 160px;
   margin: 10px;
   text-align: center;
   line-height: 75px;
-  font-size: 30px;
+  font-size: 14px;
 }
 </style>
 	</head>
@@ -28,7 +28,7 @@ Total Gold: <span id="cookies">0</span>
 <button onclick="cookieClick(1)">Dig</button>
 		<br />
 		
-		<br />
+		
 		<button onclick="buyCursor()">Buy Worker</button>
 		<br />
 		Workers: <span id="cursors">0</span> gold /sec
@@ -36,7 +36,7 @@ Total Gold: <span id="cookies">0</span>
 		Worker Cost: <span id="cursorCost">25</span>
 		
 	<br />
-		<br />
+		
 		<button onclick="buyPeasant()">Buy Peasant</button>
 		<br />
 		Peasants: <span id="peasants">0</span> gold /sec
@@ -45,7 +45,7 @@ Total Gold: <span id="cookies">0</span>
 		
 		
 		<br />
-		<br />
+		
 		<button onclick="buyKnight()">Buy Knight</button>
 		<br />
 		Knights: <span id="peasants">0</span> gold /sec
