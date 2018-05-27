@@ -12,7 +12,7 @@ Total Gold: <span id="cookies">0</span>
 
 .flex-container > div {
   background-color: #f1f1f1;
-  width: 220px;
+  width: 225px;
   margin: 1px;
   text-align: center;
   line-height: 75px;
@@ -41,7 +41,7 @@ Total Gold: <span id="cookies">0</span>
 		<br />
 		Peasants: <span id="peasants">0</span> gold /sec
 		<br />
-		Peasant Cost: <span id="peasantCost">1000</span>
+		Peasant Cost: <span id="peasantCost">550</span>
 		
 		
 		<br />
