@@ -8,7 +8,7 @@ function cookieClick(number){
 var cursors = 0;
 
 function buyCursor(){
-    var cursorCost = Math.floor(10 * Math.pow(1.1,cursors));     //works out the cost of this cursor
+    var cursorCost = Math.floor(25 * Math.pow(1.1,cursors));     //works out the cost of this cursor
     if(cookies >= cursorCost){                                   //checks that the player can afford the cursor
         cursors = cursors + 1;                                   //increases number of cursors
     	cookies = cookies - cursorCost;                          //removes the cookies spent
@@ -33,7 +33,7 @@ function cookieClick(number){
 var peasants = 0;
 
 function buyPeasant(){
-    var peasantCost = Math.floor(100 * Math.pow(1.01,peasants));     //works out the cost of this peasant
+    var peasantCost = Math.floor(1000 * Math.pow(1.01,peasants));     //works out the cost of this peasant
     if(cookies >= peasantCost){                                   //checks that the player can afford the peasant
         peasants = peasants + 10;                                   //increases number of peasants
     	cookies = cookies - peasantCost;                          //removes the cookies spent
