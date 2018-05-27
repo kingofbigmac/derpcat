@@ -11,17 +11,17 @@ Total Gold: <span id="cookies">0</span>
 		<br />
 		<button onclick="buyCursor()">Buy Worker</button>
 		<br />
-		Workers: <span id="cursors">0</span>
+		Workers: <span id="cursors">0</span> gold /sec
 		<br />
-		Workers Cost: <span id="cursorCost">10</span>
+		Worker Cost: <span id="cursorCost">25</span>
 		
 	<br />
 		<br />
 		<button onclick="buyPeasant()">Buy Peasant</button>
 		<br />
-		Peasants: <span id="peasants">0</span>
+		Peasants: <span id="peasants">0</span> gold /sec
 		<br />
-		Peasants Cost: <span id="peasantCost">100</span>
+		Peasant Cost: <span id="peasantCost">1000</span>
 		
 	
 	
