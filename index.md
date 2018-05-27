@@ -5,6 +5,7 @@ Total Gold: <span id="cookies">0</span>
 		<link rel="stylesheet" type="text/css" href="interface.css" />
 	</head>
 	<body>
+		<div align="left">
 		<button onclick="cookieClick(1)">Dig</button>
 		<br />
 		
@@ -22,7 +23,11 @@ Total Gold: <span id="cookies">0</span>
 		Peasants: <span id="peasants">0</span> gold /sec
 		<br />
 		Peasant Cost: <span id="peasantCost">1000</span>
+		</div>
 		
+		<div align="center">
+		<button onclick="woodClick">Chop</button>
+		</div>
 	
 	
 	
