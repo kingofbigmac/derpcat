@@ -48,7 +48,7 @@ Total Gold: <span id="cookies">0</span>
 		
 		<button onclick="buyKnight()">Buy Knight</button>
 		<br />
-		Knights: <span id="peasants">0</span> gold /sec
+		Knights: <span id="knights">0</span> gold /sec
 		<br />
 		Knight Cost: <span id="peasantCost">120000</span>
 
