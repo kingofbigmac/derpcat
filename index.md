@@ -25,9 +25,20 @@ Total Gold: <span id="cookies">0</span>
 		Peasant Cost: <span id="peasantCost">1000</span>
 		</div>
 		
-		<div align="center">
-		<button onclick="woodClick">Chop</button>
+		<br />
+		<br />
+		<button onclick="buyKnight()">Buy Knight</button>
+		<br />
+		Knights: <span id="peasants">0</span> gold /sec
+		<br />
+		Knight Cost: <span id="peasantCost">120000</span>
 		</div>
+		
+		
+		
+		##<div align="center">
+		##<button onclick="woodClick">Chop</button>
+		##</div>
 	
 	
 	
