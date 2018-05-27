@@ -63,3 +63,9 @@ function buyKnight(){
     var nextCost = Math.floor(12000 * Math.pow(1.01,knights));       //works out the cost of the next peasant
     document.getElementById('knightCost').innerHTML = nextCost;  //updates the peasant cost for the user
 };
+
+window.setInterval(function(){
+	
+	cookieClick(knights);
+	
+}, 1000);
