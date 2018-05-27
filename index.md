@@ -23,7 +23,7 @@ Total Gold: <span id="cookies">0</span>
 		Peasants: <span id="peasants">0</span> gold /sec
 		<br />
 		Peasant Cost: <span id="peasantCost">1000</span>
-		</div>
+		
 		
 		<br />
 		<br />
