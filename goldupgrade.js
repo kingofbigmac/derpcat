@@ -15,7 +15,7 @@ function buyCursor(){
         document.getElementById('cursors').innerHTML = cursors;  //updates the number of cursors for the user
         document.getElementById('cookies').innerHTML = cookies;  //updates the number of cookies for the user
     };
-    var nextCost = Math.floor(10 * Math.pow(1.1,cursors));       //works out the cost of the next cursor
+    var nextCost = Math.floor(25 * Math.pow(1.1,cursors));       //works out the cost of the next cursor
     document.getElementById('cursorCost').innerHTML = nextCost;  //updates the cursor cost for the user
 };
 
@@ -40,7 +40,7 @@ function buyPeasant(){
         document.getElementById('peasants').innerHTML = peasants;  //updates the number of peasants for the user
         document.getElementById('cookies').innerHTML = cookies;  //updates the number of cookies for the user
     };
-    var nextCost = Math.floor(100 * Math.pow(1.01,peasants));       //works out the cost of the next peasant
+    var nextCost = Math.floor(1000 * Math.pow(1.01,peasants));       //works out the cost of the next peasant
     document.getElementById('peasantCost').innerHTML = nextCost;  //updates the peasant cost for the user
 };
 
