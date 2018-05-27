@@ -12,7 +12,7 @@ Total Gold: <span id="cookies">0</span>
 
 .flex-container > div {
   background-color: #f1f1f1;
-  width: 200px;
+  width: 220px;
   margin: 1px;
   text-align: center;
   line-height: 75px;
