@@ -14,7 +14,7 @@ Total Gold: <span id="cookies">0</span>
 		Workers: <span id="cursors">0</span>
 		<br />
 		Workers Cost: <span id="cursorCost">10</span>
-		<script type="text/javascript" src="worker.js"></script>
+		
 	<br />
 		<br />
 		<button onclick="buyPeasant()">Buy Peasant</button>
@@ -22,13 +22,13 @@ Total Gold: <span id="cookies">0</span>
 		Peasants: <span id="peasants">0</span>
 		<br />
 		Peasants Cost: <span id="peasantCost">100</span>
-		<script type="text/javascript" src="peasant.js"></script>
+		
 	
 	
 	
 	
 	
 	
-	
+	<script type="text/javascript" src="goldupgrade.js"></script>
 	</body>
 </html>
