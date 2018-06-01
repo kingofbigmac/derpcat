@@ -8,22 +8,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body id="home">
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-    <div class="container">
-      <a href="index.html" class="navbar-brand">Crazy Cat Lady</a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="#home" class="nav-link">Home</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<h1><p id="title1"><strong>Welcome to Crazy Cat Lady</strong></h1></p>
 
   <!-- HOME SECTION -->
   <header id="home-section">
@@ -32,12 +17,12 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 d-none d-lg-block">
-              <h1 class="display-4"><h1><strong>Welcome to Crazy Cat Lady</strong></h1>
+              <h4 class="display-4"><h4><strong>How many cats and boxes of wine can you collect?</strong></h4>
               <div class="d-flex flex-row">
                 <div class="p-4 align-self-start">
                 </div>
                 <div class="p-4 align-self-end">
-                  <button class="btn btn-secondary" onclick="cookieClick(1)">Pet</button>
+                  <button class="btn btn-success btn-lg" onclick="cookieClick(1)">Dig</button>
                 </div>
               </div>
 
@@ -45,11 +30,11 @@
                 <div class="p-4 align-self-start">
                 </div>
                 <div class="p-4 align-self-end">
-                  <button class="btn btn-primary" onclick="buyCraigslistcat()">Craigslist Cat</button>
+                  <button class="btn btn-success btn-lg" onclick="buyCursor()">Buy Worker</button>
                     <br />
-                    Craigslist Cat: <span id="craigslistcats">0</span> Wine /sec
+                    Workers: <span id="cursors">0</span> gold /sec
                     <br />
-                    Craigslist Cat Cost: <span id="craigslistcatCost">25</span>
+                    Worker Cost: <span id="cursorCost">25</span>
                 </div>
               </div>
 
@@ -57,11 +42,11 @@
                 <div class="p-4 align-self-start">
                 </div>
                 <div class="p-4 align-self-end">
-                  <button class="btn btn-secondary" onclick="buyAdoptacat()">Adopt a Cat</button>
+                  <button class="btn btn-success btn-lg" onclick="buyPeasant()">Buy Peasant</button>
                   <br />
-                  Adopt a Cat: <span id="adoptacats">0</span> Wine /sec
+                  Peasants: <span id="peasants">0</span> gold /sec
                   <br />
-                  Adopt a Cat Cost: <span id="adoptacatCost">1,000</span>
+                  Peasant Cost: <span id="peasantCost">1000</span>
                 </div>
               </div>
 
@@ -69,11 +54,11 @@
                 <div class="p-4 align-self-start">
                 </div>
                 <div class="p-4 align-self-end">
-                  <button class="btn btn-primary" onclick="buyStealacat()">Steal a Cat</button>
+                  <button class="btn btn-success btn-lg" onclick="buyKnight()">Buy Knight</button>
                   <br />
-                  Steal a Cat: <span id="stealacats">0</span> Wine /sec
+                  Knights: <span id="peasants">0</span> gold /sec
                   <br />
-                  Steal a Cat Cost: <span id="stealacatCost">12,000</span>
+                  Knight Cost: <span id="peasantCost">120000</span>
                 </div>
               </div>
             </div>
@@ -83,7 +68,6 @@
                   <h3>Wine Depot</h3>
                   <p>Below is your current stock of wine </p>
                   <p>Total Box Wine: <span id="cookies">0</span></p>
-                  <p>Total Wine per <span id="adoptacats, craigslistcats, stealacats">0</span> seconds</p>
                   </form>
                 </div>
               </div>
