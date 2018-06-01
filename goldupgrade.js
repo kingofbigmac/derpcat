@@ -33,14 +33,14 @@ function cookieClick(number){
 var peasants = 0;
 
 function buyPeasant(){
-    var peasantCost = Math.floor(550 * Math.pow(1.01,peasants));     //works out the cost of this peasant
+    var peasantCost = Math.floor(1000 * Math.pow(1.01,peasants));     //works out the cost of this peasant
     if(cookies >= peasantCost){                                   //checks that the player can afford the peasant
         peasants = peasants + 10;                                   //increases number of peasants
     	cookies = cookies - peasantCost;                          //removes the cookies spent
         document.getElementById('peasants').innerHTML = peasants;  //updates the number of peasants for the user
         document.getElementById('cookies').innerHTML = cookies;  //updates the number of cookies for the user
     };
-    var nextCost = Math.floor(550 * Math.pow(1.01,peasants));       //works out the cost of the next peasant
+    var nextCost = Math.floor(1000 * Math.pow(1.01,peasants));       //works out the cost of the next peasant
     document.getElementById('peasantCost').innerHTML = nextCost;  //updates the peasant cost for the user
 };
 
@@ -63,9 +63,3 @@ function buyKnight(){
     var nextCost = Math.floor(12000 * Math.pow(1.01,knights));       //works out the cost of the next peasant
     document.getElementById('knightCost').innerHTML = nextCost;  //updates the peasant cost for the user
 };
-
-window.setInterval(function(){
-	
-	cookieClick(knights);
-	
-}, 1000);
