@@ -8,7 +8,7 @@ function cookieClick(number){
 var craigslistcats = 0;
 
 function buyCraigslistcat(){
-    var craigslistCost = Math.floor(25 * Math.pow(1.1,craigslistcats));     //works out the cost of this cursor
+    var craigslistcatCost = Math.floor(25 * Math.pow(1.1,craigslistcats));     //works out the cost of this cursor
     if(cookies >= craigslistcatCost){                                   //checks that the player can afford the cursor
         craigslistcats = craigslistcats + 1;                                   //increases number of cursors
         cookies = cookies - craigslistcatCost;                          //removes the cookies spent
