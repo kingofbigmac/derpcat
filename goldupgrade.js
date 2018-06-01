@@ -5,62 +5,62 @@ function cookieClick(number){
     document.getElementById("cookies").innerHTML = cookies;
 };
 
-var cursors = 0;
+var craigslistcats = 0;
 
-function buyCursor(){
-    var cursorCost = Math.floor(25 * Math.pow(1.1,cursors));     //works out the cost of this cursor
-    if(cookies >= cursorCost){                                   //checks that the player can afford the cursor
-        cursors = cursors + 1;                                   //increases number of cursors
-        cookies = cookies - cursorCost;                          //removes the cookies spent
-        document.getElementById('cursors').innerHTML = cursors;  //updates the number of cursors for the user
+function buyCraigslistcat(){
+    var cursorCost = Math.floor(25 * Math.pow(1.1,craigslistcats));     //works out the cost of this cursor
+    if(cookies >= craigslistcatCost){                                   //checks that the player can afford the cursor
+        craigslistcats = craigslistcats + 1;                                   //increases number of cursors
+        cookies = cookies - craigslistcatCost;                          //removes the cookies spent
+        document.getElementById('craigslistcats').innerHTML = craigslistcats;  //updates the number of cursors for the user
         document.getElementById('cookies').innerHTML = cookies;  //updates the number of cookies for the user
     };
     var nextCost = Math.floor(25 * Math.pow(1.1,cursors));       //works out the cost of the next cursor
-    document.getElementById('cursorCost').innerHTML = nextCost;  //updates the cursor cost for the user
+    document.getElementById('craigslistcatCost').innerHTML = nextCost;  //updates the cursor cost for the user
 };
 
 window.setInterval(function(){
-    
-    cookieClick(cursors);
-    
+
+    cookieClick(craigslistcat);
+
 }, 1000);
 
-var peasants = 0;
+var adoptacats = 0;
 
-function buyPeasant(){
-    var peasantCost = Math.floor(1000 * Math.pow(1.01,peasants));     //works out the cost of this peasant
-    if(cookies >= peasantCost){                                   //checks that the player can afford the peasant
-        peasants = peasants + 10;                                   //increases number of peasants
-        cookies = cookies - peasantCost;                          //removes the cookies spent
-        document.getElementById('peasants').innerHTML = peasants;  //updates the number of peasants for the user
+function buyAdoptacat(){ //Some reason the capital letter is capitalized
+    var adoptacatCost = Math.floor(1000 * Math.pow(1.01,adoptacats));     //works out the cost of this peasant
+    if(cookies >= adoptacatCost){                                   //checks that the player can afford the peasant
+        adoptacats = adoptacats + 10;                                   //increases number of peasants
+        cookies = cookies - adoptacatCost;                          //removes the cookies spent
+        document.getElementById('adoptacats').innerHTML = adoptacats;  //updates the number of peasants for the user
         document.getElementById('cookies').innerHTML = cookies;  //updates the number of cookies for the user
     };
-    var nextCost = Math.floor(1000 * Math.pow(1.01,peasants));       //works out the cost of the next peasant
-    document.getElementById('peasantCost').innerHTML = nextCost;  //updates the peasant cost for the user
+    var nextCost = Math.floor(1000 * Math.pow(1.01,adoptacats));       //works out the cost of the next peasant
+    document.getElementById('adoptacatCost').innerHTML = nextCost;  //updates the peasant cost for the user
 };
 
 window.setInterval(function(){
-    
-    cookieClick(peasants);
-    
+
+    cookieClick(adoptacats);
+
 }, 1000);
 
-var knights = 0;
+var stealacats = 0;
 
-function buyKnight(){
-    var knightCost = Math.floor(12000 * Math.pow(1.01,knights));     //works out the cost of this peasant
-    if(cookies >= knightCost){                                   //checks that the player can afford the peasant
-        knights = knights + 120;                                   //increases number of peasants
-        cookies = cookies - knightCost;                          //removes the cookies spent
-        document.getElementById('knights').innerHTML = knights;  //updates the number of peasants for the user
+function buyStealacat(){
+    var stealacatCost = Math.floor(12000 * Math.pow(1.01,stealacats));     //works out the cost of this peasant
+    if(cookies >= stealacatCost){                                   //checks that the player can afford the peasant
+        stealacats = stealacats + 120;                                   //increases number of peasants
+        cookies = cookies - stealacatCost;                          //removes the cookies spent
+        document.getElementById('stealacats').innerHTML = stealacats;  //updates the number of peasants for the user
         document.getElementById('cookies').innerHTML = cookies;  //updates the number of cookies for the user
     };
-    var nextCost = Math.floor(12000 * Math.pow(1.01,knights));       //works out the cost of the next peasant
-    document.getElementById('knightCost').innerHTML = nextCost;  //updates the peasant cost for the user
+    var nextCost = Math.floor(12000 * Math.pow(1.01,stealacats));       //works out the cost of the next peasant
+    document.getElementById('stealacatCost').innerHTML = nextCost;  //updates the peasant cost for the user
 };
-    
+
  window.setInterval(function(){
-    
-    cookieClick(knights);
-    
-}, 1000);  
+
+    cookieClick(stealacats);
+
+}, 1000);
