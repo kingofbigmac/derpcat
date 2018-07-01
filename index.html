@@ -1,83 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Crazy Cat Lady</title>
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/style.css">
+<style>
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
 </head>
-<h1><p id="title1"><strong>Welcome to Crazy Cat Lady</strong></h1></p>
+<body>
+<h1>Flexible Boxes</h1>
 
-  <!-- HOME SECTION -->
-  <header id="home-section">
-    <div class="dark-overlay">
-      <div class="home-inner">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 d-none d-lg-block">
-              <h4 class="display-4"><h4><strong>How many cats and boxes of wine will it take you to become the ultimate cat lady?</strong></h4>
-              <div class="d-flex flex-row">
-                <div class="p-4 align-self-start">
-                </div>
-                <div class="p-4 align-self-end">
-                  <button class="btn btn-success btn-lg" onclick="cookieClick(1)">Pet</button>
-                </div>
-              </div>
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>  
+  <div>7</div>
+  <div>8</div>
+</div>
 
-               <div class="d-flex flex-row">
-                <div class="p-4 align-self-start">
-                </div>
-                <div class="p-4 align-self-end">
-                  <button class="btn btn-success btn-lg" onclick="buyCraigslistcat()">Craigslist Cat</button>
-                    <br />
-                    Craigslist cat: <span id="craigslistcats">0</span> Wine /sec
-                    <br />
-                    Pay in wine: <span id="craigslistcatCost">25</span>
-                </div>
-              </div>
+<p>Try to resize the browser window.</p>
+<p>A container with "flex-wrap: nowrap;" will never wrap its items.</p>
+<p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 or earlier versions.</p>
 
-              <div class="d-flex flex-row">
-                <div class="p-4 align-self-start">
-                </div>
-                <div class="p-4 align-self-end">
-                  <button class="btn btn-success btn-lg" onclick="buyAdoptacat()">Adopt a Cat</button>
-                  <br />
-                  Adopt a Cat: <span id="adoptacats">0</span> Wine /sec
-                  <br />
-                   Pay in wine: <span id="adoptacatCost">1000</span>
-                </div>
-              </div>
-
-              <div class="d-flex flex-row">
-                <div class="p-4 align-self-start">
-                </div>
-                <div class="p-4 align-self-end">
-                  <button class="btn btn-success btn-lg" onclick="buyStealacat()">Steal a Cat</button>
-                  <br />
-                  Steal a Cat: <span id="stealacats">0</span> Wine /sec
-                  <br />
-                  Pay in wine: <span id="stealacatCost">12,000</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card bg-primary text-center card-form">
-                <div class="card-body">
-                  <h3>Wine Depot</h3>
-                  <p>Below is your current stock of wine </p>
-                  <p>Total Box Wine: <span id="cookies">0</span></p>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <script src="goldupgrade.js"></script>
-  </body>
+</body>
 </html>
